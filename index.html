@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Manny | Marketing Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f6f2;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* NAVIGATION */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 8%;
+      background-color: #f7f6f2;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 35px;
+      list-style: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      opacity: 0.6;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 8%;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .hero h1 {
+      font-size: 72px;
+      line-height: 1.05;
+      margin-bottom: 30px;
+    }
+
+    .hero p {
+      font-size: 21px;
+      max-width: 700px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .button:hover {
+      opacity: 0.8;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 100px 8%;
+    }
+
+    section h2 {
+      font-size: 42px;
+      margin-bottom: 25px;
+    }
+
+    section p {
+      max-width: 750px;
+      font-size: 18px;
+    }
+
+    /* EXPERIENCE */
+    .experience {
+      background-color: #ffffff;
+    }
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .experience-card {
+      padding: 35px;
+      background-color: #f7f6f2;
+    }
+
+    .experience-card h3 {
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+
+    .experience-card p {
+      font-size: 16px;
+    }
+
+    /* CONTACT */
+    .contact {
+      background-color: #222;
+      color: white;
+    }
+
+    .contact a {
+      color: white;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 30px 8%;
+      background-color: #222;
+      color: #aaa;
+      border-top: 1px solid #444;
+    }
+
+    /* MOBILE */
+    @media (max-width: 800px) {
+
+      .hero h1 {
+        font-size: 48px;
+      }
+
+      .experience-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav ul {
+        gap: 15px;
+      }
+
+      nav {
+        padding: 20px 5%;
+      }
+
+      section,
+      .hero {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">Manny.</div>
+
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+
+      <h1>
+        Hi, I'm Manny.
+      </h1>
+
+      <p>
+        I'm a business student at Iowa State University with experience in
+        marketing, social media, and creative strategy. I enjoy bringing
+        creativity and business together to create meaningful ideas,
+        strong connections, and work that makes an impact.
+      </p>
+
+      <a href="#work" class="button">Explore My Work</a>
+
+    </div>
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I'm passionate about marketing, creativity, and understanding what
+      connects people with brands. Through my education and professional
+      experiences, I've had the opportunity to work across marketing,
+      social media, creative projects, and customer-focused environments.
+    </p>
+
+  </section>
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience">
+
+    <h2>Experience</h2>
+
+    <div class="experience-grid">
+
+      <div class="experience-card">
+        <h3>Marketing</h3>
+        <p>
+          Experience developing marketing ideas, campaigns, and strategies
+          designed to connect brands with their audiences.
+        </p>
+      </div>
+
+      <div class="experience-card">
+        <h3>Social Media</h3>
+        <p>
+          Creating social content and managing digital platforms with a
+          focus on engagement, brand identity, and growth.
+        </p>
+      </div>
+
+      <div class="experience-card">
+        <h3>Creative Strategy</h3>
+        <p>
+          Combining business thinking with creativity to develop ideas
+          that are both visually engaging and strategically effective.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- WORK -->
+  <section id="work">
+
+    <h2>Selected Work</h2>
+
+    <p>
+      Explore some of the projects, campaigns, and experiences that have
+      shaped my approach to marketing and creative strategy.
+    </p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2>Let's Connect.</h2>
+
+    <p>
+      I'm always interested in new opportunities, collaborations, and
+      conversations. Feel free to reach out and connect with me.
+    </p>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Manny. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
