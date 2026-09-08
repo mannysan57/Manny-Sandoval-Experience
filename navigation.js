@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const primaryNavigation = `
+  const navigation = `
     <ul>
       <li>
         <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/index.html">
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const primaryNav = document.getElementById("primary-navigation");
 
   if (primaryNav) {
-    primaryNav.innerHTML = primaryNavigation;
+    primaryNav.innerHTML = navigation;
   }
 
 });
