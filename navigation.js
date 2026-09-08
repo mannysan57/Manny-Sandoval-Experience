@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const navigation = `
     <ul>
+
       <li>
         <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/index.html">
           Home
@@ -37,13 +38,14 @@ document.addEventListener("DOMContentLoaded", function () {
           Resume
         </a>
       </li>
+
     </ul>
   `;
 
-  const primaryNav = document.getElementById("primary-navigation");
+  const nav = document.getElementById("primary-navigation");
 
-  if (primaryNav) {
-    primaryNav.innerHTML = navigation;
+  if (nav) {
+    nav.innerHTML = navigation;
   }
 
 });
