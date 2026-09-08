@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  const navigation = `
+  const navigationHTML = `
     <ul>
 
       <li>
@@ -42,10 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   `;
 
-  const nav = document.getElementById("primary-navigation");
+  const navigation =
+    document.getElementById("main-navigation");
 
-  if (nav) {
-    nav.innerHTML = navigation;
+  if (navigation) {
+    navigation.innerHTML = navigationHTML;
   }
 
 });
