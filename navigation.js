@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/about.html">
-          About Me
+        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/welcome.html">
+          Welcome
         </a>
       </li>
 
