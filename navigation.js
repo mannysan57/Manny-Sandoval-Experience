@@ -36,8 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
   `;
 
+
   const navigation =
     document.getElementById("main-navigation");
+
 
   if (navigation) {
     navigation.innerHTML = navigationHTML;
