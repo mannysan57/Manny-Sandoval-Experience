@@ -22,20 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/projects.html">
-          Projects
+        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/feedback.html">
+          Feedback
         </a>
       </li>
 
       <li>
         <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/contact.html">
           Contact
-        </a>
-      </li>
-
-      <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/resume.html">
-          Resume
         </a>
       </li>
 
