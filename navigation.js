@@ -4,31 +4,31 @@ document.addEventListener("DOMContentLoaded", function () {
     <ul>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/index.html">
+        <a href="index.html">
           Home
         </a>
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/education.html">
+        <a href="education.html">
           Education
         </a>
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/experience.html">
+        <a href="experience.html">
           Experience
         </a>
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/feedback.html">
+        <a href="feedback.html">
           Feedback
         </a>
       </li>
 
       <li>
-        <a href="https://mannysan57.github.io/Manny-Sandoval-Experience/contact.html">
+        <a href="contact.html">
           Contact
         </a>
       </li>
